@@ -1,0 +1,38 @@
+{
+  "name": "zerelay",
+  "version": "0.1.0",
+  "description": "Official Node.js SDK for the Zerelay email and SMS API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "zerelay",
+    "email",
+    "sms",
+    "transactional-email",
+    "smtp",
+    "nigeria",
+    "webhooks"
+  ],
+  "homepage": "https://zerelay.com/developer/docs",
+  "license": "MIT"
+}
